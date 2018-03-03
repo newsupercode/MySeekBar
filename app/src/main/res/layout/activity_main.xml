@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myseekbarapplication.MainActivity">
+
+    <com.example.administrator.myseekbarapplication.RangeSlider2
+        android:id="@+id/bgm_range_slider"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        app:rsb_cellMode="other"
+        app:rsb_lineColorEdge="@color/colorSeekBarDefault"
+        app:rsb_lineColorSelected="@color/colorAccent"
+        app:rsb_max="100"
+        app:rsb_min="0"
+        app:rsb_progressHintMode="alwaysHide"
+        app:rsb_reserve="10"
+        app:rsb_seekBarHeight="3dp"
+        app:rsb_seekBarMode="range"
+        app:rsb_textPadding="0dp"
+        app:rsb_thumbResId="@drawable/ic_triangle"
+        app:rsb_thumbSize="20dp" />
+
+
+</android.support.constraint.ConstraintLayout>
